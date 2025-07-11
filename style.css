@@ -93,6 +93,7 @@ header nav .logo {
   width: 905px;
   display: flex;
   flex-direction: column;
+  row-gap: 40px;
   align-items: center;
   justify-content: start;
   flex-wrap: nowrap;
