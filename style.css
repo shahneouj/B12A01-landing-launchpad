@@ -153,7 +153,60 @@ header nav .logo {
 }
 
 /* action-section end */
+/* productive-users start*/
+.productive-users {
+  padding: 0px 0px 116px 0px;
+}
 
+.user-content {
+  background: #4d47ff13;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 80px 50px 80px;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+
+}
+
+.user-content h4 {
+  font-family: Raleway;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #252432;
+}
+
+.user-datas {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  column-gap: 158px;
+}
+
+.data h5 {
+  font-family: Inter;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #4e47ff;
+  margin: 0;
+
+}
+
+.data p {
+  color: #0000006a;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+
+
+}
+
+/* productive-users end */
 /* footer-css */
 
 footer {
