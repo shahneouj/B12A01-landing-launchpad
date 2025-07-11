@@ -155,7 +155,7 @@ header nav .logo {
 /* action-section end */
 /* productive-users start*/
 .productive-users {
-  padding: 0px 0px 116px 0px;
+  padding: 0px 0px 137px 0px;
 }
 
 .user-content {
@@ -202,11 +202,111 @@ header nav .logo {
   font-weight: 400;
   text-align: center;
   margin: 0;
-
-
 }
 
 /* productive-users end */
+
+/* feedback section start */
+.feedback-section {
+  padding-bottom: 132px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  row-gap: 50px;
+}
+
+.feedback-heder {
+  color: #252432;
+  font-family: Raleway;
+  font-size: 42px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.feedback-cards {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.feedback-card {
+  background: #ffffff80;
+  border: 1px solid #f2ededFF;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  padding: 24px;
+  min-width: 240px;
+  row-gap: 24px;
+  border-radius: 14px;
+
+}
+
+.start-icon {
+  display: flex;
+  column-gap: 4px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #1e1e1e;
+  font-family: Inter;
+  margin: 0;
+
+}
+
+.feedback-text {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  height: 45px;
+  color: #1e1e1e;
+  margin: 0;
+}
+
+.reviewer {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  column-gap: 12px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 2px;
+}
+
+
+.info p {
+  margin: 0px;
+}
+
+.name {
+  color: #757575;
+  font-weight: 600;
+}
+
+.date {
+  color: #b3b3b3;
+
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  background: #ffffff00;
+  border-radius: 9999px;
+}
+
+/* feedback section end */
 /* footer-css */
 
 footer {
