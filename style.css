@@ -11,6 +11,12 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 nav,
 main,
 .footer-content {
@@ -108,7 +114,6 @@ header nav .logo {
 /* header end */
 /* action-section start */
 .action-section {
-  /* width: 100vw; */
   padding: 116px 0px;
 }
 
@@ -133,7 +138,6 @@ header nav .logo {
   font-weight: 700;
   line-height: 1;
   color: #252432;
-  margin: 0;
 }
 
 .action-content .left p {
@@ -141,7 +145,6 @@ header nav .logo {
   font-size: 24px;
   font-weight: 400;
   line-height: 1.25;
-  margin: 0;
   color: #25243286;
 
 }
@@ -166,7 +169,7 @@ header nav .logo {
   padding: 50px 80px 50px 80px;
   justify-content: center;
   align-items: center;
-  row-gap: 10px;
+  row-gap: 20px;
 
 }
 
@@ -191,7 +194,6 @@ header nav .logo {
   font-weight: 700;
   line-height: 1.2;
   color: #4e47ff;
-  margin: 0;
 
 }
 
@@ -201,7 +203,6 @@ header nav .logo {
   font-size: 20px;
   font-weight: 400;
   text-align: center;
-  margin: 0;
 }
 
 /* productive-users end */
@@ -221,7 +222,6 @@ header nav .logo {
   font-family: Raleway;
   font-size: 42px;
   font-weight: 700;
-  margin: 0;
 }
 
 .feedback-cards {
@@ -256,7 +256,6 @@ header nav .logo {
   line-height: 1.2;
   color: #1e1e1e;
   font-family: Inter;
-  margin: 0;
 
 }
 
@@ -266,7 +265,6 @@ header nav .logo {
   font-weight: 400;
   height: 45px;
   color: #1e1e1e;
-  margin: 0;
 }
 
 .reviewer {
@@ -307,6 +305,44 @@ header nav .logo {
 }
 
 /* feedback section end */
+/* focus section start */
+.focus-section {
+  padding-bottom: 92px;
+
+}
+
+.focus-content {
+  background: #ffffffFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  border-radius: 14px;
+  padding: 71px 150px 71px 150px;
+}
+
+.focus-content h3 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #000;
+
+}
+
+.focus-content p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #00000072;
+
+}
+
+.focus-content img {
+  height: 365px;
+  border-radius: 47px;
+}
+
+/* focus section end */
 /* footer-css */
 
 footer {
