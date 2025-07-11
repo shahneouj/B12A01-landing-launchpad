@@ -422,6 +422,7 @@ form textarea::placeholder {
 
 form .btn-form {
   padding: 20px 36px 20px 36px;
+  font-size: 24px;
   text-align: center;
   font-weight: 700;
   background: #4e47ffFF;
